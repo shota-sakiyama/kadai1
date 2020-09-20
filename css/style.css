@@ -1,0 +1,180 @@
+html {
+  font-size: 62.5%;
+  /* 追記 */
+  height: 100%;
+}
+/* フォントサイズ */
+body {
+  width: 980px;
+  margin: 0 auto;
+  /* 追記,削除 */
+  height: 100%;
+}
+.container {
+  width: 980px;
+  margin: 0 auto;
+  /* 追記 */
+  min-height: 100%;
+  position: relative;
+  min-height: 100%;
+}
+/* 幅、中央寄せ */
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* 余白削除 */
+li {
+  list-style: none;
+}
+/* liタグには黒丸がつくが、削除 */
+.header {
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+.top_menu li {
+  float: left;
+  width: auto;
+}
+/* 浮かす */
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+/* 下線を消す */
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+/* :hoverはマウスオーバーしている時 */
+.logo_image {
+  width: 110px;
+  float: left;
+  margin: 0;
+}
+/* ロゴを浮かす */
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+ ul.top_menu {
+  float: right;
+}
+/* 右寄せにする */
+
+/* 追記 */
+.image_area{
+  width: 100%;
+}
+/* サイドバー */
+.side_menu li{
+  background-color: #F5B4B3;
+  height: 6rem;
+  margin-bottom: 10px;
+}
+/* サイドバー中身 */
+.side_menu li a{
+  font-size:2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+.banner img{
+  width: 100%;
+}
+.banner{
+  margin-top: 20px;
+}
+/* 横並びにする */
+.side_menu{
+  width: 300px;
+  float: left;
+}
+.wrapper{
+  margin-top: 10px;
+  /* 追記 */
+  padding-bottom: 100px;
+}
+/* 半透明にする */
+.side_menu li:hover{
+  opacity: 0.6;
+}
+.banner a:hover {
+  opacity: 0.6;
+}
+.news{
+  height: 200px;
+  background-color: #FCE8E7;
+  padding: 20px;
+  overflow: scroll;
+  line-height: 2;
+}
+.footer{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  background-color: #4D4D4D;
+  display: table;
+}
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  /* 中央揃え */
+  text-align: center;
+  /* 真ん中にする（tableタグ以外無理） */
+  vertical-align: middle;
+  /* 真ん中にする（tableタグにする） */
+  display: table-cell;
+}
+/* 追記 */
+.banner_content {
+  /* 上部のマージンを設定 */
+  margin-top: 10px;
+  /* <table>のように振る舞う */
+  display: table;
+}
+.banner_content p {
+  /* <td>のように振る舞う */
+  display: table-cell;
+}
+.banner_content p img {
+  /* 画像サイズの修正 */
+  width: 100%;
+}
+.image_area{
+  width: 100%;
+}
+.side_menu .point{
+  background-color: #FCECEC;
+}
+.side_menu .point a{
+  color: #4D4D4D;
+}
+/* content位置 */
+.content{
+  float: left;
+  font-size: 1.5rem;
+}
+.a{
+  height: 7rem;
+}
+.b{
+  width: 150px;
+}
+.d{
+  width: 480px;
+}
+.e {
+  color: black;
+  background-color: #F5B4B3;
+  margin-left:315px;
+  height: 3rem;
+}
+.e:hover{
+  opacity: 0.6;
+}
